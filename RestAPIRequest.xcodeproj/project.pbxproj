@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		04A63D62E101963553DEACBC /* Pods_RestAPIRequestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE7A3D055ECC5803121470 /* Pods_RestAPIRequestUITests.framework */; };
+		6D4A42871CFF1ADC007A82CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42841CFF1ADC007A82CC /* Assets.xcassets */; };
+		6D4A42891CFF1ADC007A82CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42861CFF1ADC007A82CC /* LaunchScreen.storyboard */; };
+		6D4A428D1CFF1B12007A82CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A428C1CFF1B12007A82CC /* Default-568h@2x.png */; };
+		6D4A42901CFF1B98007A82CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A428F1CFF1B98007A82CC /* Info.plist */; };
+		6D4A42991CFF1C25007A82CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42971CFF1C25007A82CC /* Main.storyboard */; };
+		6D4A429A1CFF1C25007A82CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A42981CFF1C25007A82CC /* ViewController.swift */; };
 		6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */; };
-		6DF82BCD1CFF15E200FFDC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */; };
-		6DF82BD01CFF15E200FFDC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BCE1CFF15E200FFDC1C /* Main.storyboard */; };
-		6DF82BD21CFF15E200FFDC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BD11CFF15E200FFDC1C /* Assets.xcassets */; };
-		6DF82BD51CFF15E200FFDC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BD31CFF15E200FFDC1C /* LaunchScreen.storyboard */; };
 		6DF82BE01CFF15E200FFDC1C /* RestAPIRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BDF1CFF15E200FFDC1C /* RestAPIRequestTests.swift */; };
 		6DF82BEB1CFF15E300FFDC1C /* RestAPIRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BEA1CFF15E300FFDC1C /* RestAPIRequestUITests.swift */; };
 		8C6F294202E9ECA875E8F775 /* Pods_RestAPIRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1462CA6F53364BE801F3146A /* Pods_RestAPIRequest.framework */; };
@@ -42,13 +44,14 @@
 		1462CA6F53364BE801F3146A /* Pods_RestAPIRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestAPIRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660A4259907EEFBCC40E8CB /* Pods-RestAPIRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequest/Pods-RestAPIRequest.release.xcconfig"; sourceTree = "<group>"; };
 		5741B351FD9D4528E9EFD8D0 /* Pods-RestAPIRequestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequestTests/Pods-RestAPIRequestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4A42841CFF1ADC007A82CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D4A42861CFF1ADC007A82CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D4A428C1CFF1B12007A82CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6D4A428F1CFF1B98007A82CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4A42971CFF1C25007A82CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6D4A42981CFF1C25007A82CC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DF82BC71CFF15E200FFDC1C /* RestAPIRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6DF82BCF1CFF15E200FFDC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6DF82BD11CFF15E200FFDC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6DF82BD41CFF15E200FFDC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6DF82BD61CFF15E200FFDC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF82BDB1CFF15E200FFDC1C /* RestAPIRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF82BDF1CFF15E200FFDC1C /* RestAPIRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIRequestTests.swift; sourceTree = "<group>"; };
 		6DF82BE11CFF15E200FFDC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,9 +115,63 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6D4A42831CFF1A6F007A82CC /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A42841CFF1ADC007A82CC /* Assets.xcassets */,
+				6D4A42861CFF1ADC007A82CC /* LaunchScreen.storyboard */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		6D4A42911CFF1BEC007A82CC /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		6D4A42921CFF1BEC007A82CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D4A42931CFF1BEC007A82CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6D4A42941CFF1BEC007A82CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6D4A42951CFF1BEC007A82CC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D4A42961CFF1BEC007A82CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A42971CFF1C25007A82CC /* Main.storyboard */,
+				6D4A42981CFF1C25007A82CC /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6DF82BBE1CFF15E200FFDC1C = {
 			isa = PBXGroup;
 			children = (
+				6D4A428C1CFF1B12007A82CC /* Default-568h@2x.png */,
 				6DF82BC91CFF15E200FFDC1C /* RestAPIRequest */,
 				6DF82BDE1CFF15E200FFDC1C /* RestAPIRequestTests */,
 				6DF82BE91CFF15E300FFDC1C /* RestAPIRequestUITests */,
@@ -137,12 +194,15 @@
 		6DF82BC91CFF15E200FFDC1C /* RestAPIRequest */ = {
 			isa = PBXGroup;
 			children = (
+				6D4A42911CFF1BEC007A82CC /* Coordinators */,
+				6D4A42921CFF1BEC007A82CC /* Models */,
+				6D4A42931CFF1BEC007A82CC /* Services */,
+				6D4A42941CFF1BEC007A82CC /* Utils */,
+				6D4A42951CFF1BEC007A82CC /* ViewModels */,
+				6D4A42961CFF1BEC007A82CC /* Views */,
+				6D4A428F1CFF1B98007A82CC /* Info.plist */,
+				6D4A42831CFF1A6F007A82CC /* Ressources */,
 				6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */,
-				6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */,
-				6DF82BCE1CFF15E200FFDC1C /* Main.storyboard */,
-				6DF82BD11CFF15E200FFDC1C /* Assets.xcassets */,
-				6DF82BD31CFF15E200FFDC1C /* LaunchScreen.storyboard */,
-				6DF82BD61CFF15E200FFDC1C /* Info.plist */,
 			);
 			path = RestAPIRequest;
 			sourceTree = "<group>";
@@ -277,9 +337,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DF82BD51CFF15E200FFDC1C /* LaunchScreen.storyboard in Resources */,
-				6DF82BD21CFF15E200FFDC1C /* Assets.xcassets in Resources */,
-				6DF82BD01CFF15E200FFDC1C /* Main.storyboard in Resources */,
+				6D4A42871CFF1ADC007A82CC /* Assets.xcassets in Resources */,
+				6D4A42991CFF1C25007A82CC /* Main.storyboard in Resources */,
+				6D4A42891CFF1ADC007A82CC /* LaunchScreen.storyboard in Resources */,
+				6D4A42901CFF1B98007A82CC /* Info.plist in Resources */,
+				6D4A428D1CFF1B12007A82CC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DF82BCD1CFF15E200FFDC1C /* ViewController.swift in Sources */,
+				6D4A429A1CFF1C25007A82CC /* ViewController.swift in Sources */,
 				6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,25 +524,6 @@
 			targetProxy = 6DF82BE71CFF15E200FFDC1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6DF82BCE1CFF15E200FFDC1C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DF82BCF1CFF15E200FFDC1C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6DF82BD31CFF15E200FFDC1C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DF82BD41CFF15E200FFDC1C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6DF82BED1CFF15E300FFDC1C /* Debug */ = {
