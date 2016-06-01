@@ -18,8 +18,8 @@ class HomeViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     //launchChannelRequest()
-    //getChannelInfo()
-    getChannelLastVideos()
+    getChannelInfo()
+    //getChannelLastVideos()
   }
   
   // MARK: private funcs

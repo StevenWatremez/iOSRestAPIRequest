@@ -54,30 +54,39 @@ struct ChannelVideo: Mappable {
 }
 
 struct ChannelInfo: Mappable {
-  var id = ""
   var etag = ""
+  var items = [ChannelItem]()
+  
+  init?(_ map: Map) {}
+  
+  mutating func mapping(map: Map) {
+    etag          <- map["etag"]
+    items         <- map["items"]
+  }
+}
+struct ChannelItem: Mappable {
+  var id = ""
   var title = ""
   var description = ""
   var keywords = ""
   var profileColor = ""
   var banner = ""
   var publishedAt = NSDate()
-  var thumbnail = ""
+  var thumbnail  = ""
   var statistics: ChannelStatistics? = nil
   
   init?(_ map: Map) {}
   
   mutating func mapping(map: Map) {
-    id            <- map["items[0].id"]
-    etag          <- map["etag"]
-    title         <- map["items[0].snippet.title"]
-    description   <- map["items[0].snippet.description"]
-    keywords      <- map["items[0].brandingSettings.channel.keywords"]
-    profileColor   <- map["items[0].brandingSettings.channel.profileColor"]
-    banner        <- map["items[0].brandingSettings.image.bannerMobileImageUrl"]
-    publishedAt   <- (map["items[0].snippet.publishedAt"], DateTransform())
-    thumbnail     <- map["items[0].snippet.thumbnails.medium.url"]
-    statistics    <- map["items[0].statistics"]
+    id            <- map["id"]
+    title         <- map["snippet.title"]
+    description   <- map["snippet.description"]
+    keywords      <- map["brandingSettings.channel.keywords"]
+    profileColor   <- map["brandingSettings.channel.profileColor"]
+    banner        <- map["brandingSettings.image.bannerMobileImageUrl"]
+    publishedAt   <- (map["snippet.publishedAt"], DateTransform())
+    thumbnail     <- map["snippet.thumbnails.medium.url"]
+    statistics    <- map["statistics"]
   }
 }
 
