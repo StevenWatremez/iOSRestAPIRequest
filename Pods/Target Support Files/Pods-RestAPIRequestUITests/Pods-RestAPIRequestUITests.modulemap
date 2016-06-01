@@ -1,0 +1,6 @@
+framework module Pods_RestAPIRequestUITests {
+  umbrella header "Pods-RestAPIRequestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

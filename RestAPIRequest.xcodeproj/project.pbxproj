@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A63D62E101963553DEACBC /* Pods_RestAPIRequestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE7A3D055ECC5803121470 /* Pods_RestAPIRequestUITests.framework */; };
 		6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */; };
 		6DF82BCD1CFF15E200FFDC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */; };
 		6DF82BD01CFF15E200FFDC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BCE1CFF15E200FFDC1C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		6DF82BD51CFF15E200FFDC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BD31CFF15E200FFDC1C /* LaunchScreen.storyboard */; };
 		6DF82BE01CFF15E200FFDC1C /* RestAPIRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BDF1CFF15E200FFDC1C /* RestAPIRequestTests.swift */; };
 		6DF82BEB1CFF15E300FFDC1C /* RestAPIRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BEA1CFF15E300FFDC1C /* RestAPIRequestUITests.swift */; };
+		8C6F294202E9ECA875E8F775 /* Pods_RestAPIRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1462CA6F53364BE801F3146A /* Pods_RestAPIRequest.framework */; };
+		D35760B6B37CEA74EDA1EB41 /* Pods_RestAPIRequestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A181771E64A665FDEDB582 /* Pods_RestAPIRequestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E8A784D4CC62C51C3BC96BF /* Pods-RestAPIRequestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequestTests/Pods-RestAPIRequestTests.release.xcconfig"; sourceTree = "<group>"; };
+		135316418B17C14E9F8B920E /* Pods-RestAPIRequestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequestUITests/Pods-RestAPIRequestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1462CA6F53364BE801F3146A /* Pods_RestAPIRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestAPIRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3660A4259907EEFBCC40E8CB /* Pods-RestAPIRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequest/Pods-RestAPIRequest.release.xcconfig"; sourceTree = "<group>"; };
+		5741B351FD9D4528E9EFD8D0 /* Pods-RestAPIRequestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequestTests/Pods-RestAPIRequestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DF82BC71CFF15E200FFDC1C /* RestAPIRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		6DF82BE61CFF15E200FFDC1C /* RestAPIRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF82BEA1CFF15E300FFDC1C /* RestAPIRequestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIRequestUITests.swift; sourceTree = "<group>"; };
 		6DF82BEC1CFF15E300FFDC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A181771E64A665FDEDB582 /* Pods_RestAPIRequestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestAPIRequestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC2A11A96A89D1599ADF240 /* Pods-RestAPIRequestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequestUITests/Pods-RestAPIRequestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCFE7A3D055ECC5803121470 /* Pods_RestAPIRequestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestAPIRequestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4BDFA5E7F5C176A5D9CC24 /* Pods-RestAPIRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequest/Pods-RestAPIRequest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6F294202E9ECA875E8F775 /* Pods_RestAPIRequest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35760B6B37CEA74EDA1EB41 /* Pods_RestAPIRequestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A63D62E101963553DEACBC /* Pods_RestAPIRequestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094B6C2D22538E28A24ED33C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1462CA6F53364BE801F3146A /* Pods_RestAPIRequest.framework */,
+				89A181771E64A665FDEDB582 /* Pods_RestAPIRequestTests.framework */,
+				BCFE7A3D055ECC5803121470 /* Pods_RestAPIRequestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DDC42A8C7EF9E79DE0E856E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4BDFA5E7F5C176A5D9CC24 /* Pods-RestAPIRequest.debug.xcconfig */,
+				3660A4259907EEFBCC40E8CB /* Pods-RestAPIRequest.release.xcconfig */,
+				5741B351FD9D4528E9EFD8D0 /* Pods-RestAPIRequestTests.debug.xcconfig */,
+				0E8A784D4CC62C51C3BC96BF /* Pods-RestAPIRequestTests.release.xcconfig */,
+				AEC2A11A96A89D1599ADF240 /* Pods-RestAPIRequestUITests.debug.xcconfig */,
+				135316418B17C14E9F8B920E /* Pods-RestAPIRequestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6DF82BBE1CFF15E200FFDC1C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				6DF82BDE1CFF15E200FFDC1C /* RestAPIRequestTests */,
 				6DF82BE91CFF15E300FFDC1C /* RestAPIRequestUITests */,
 				6DF82BC81CFF15E200FFDC1C /* Products */,
+				4DDC42A8C7EF9E79DE0E856E /* Pods */,
+				094B6C2D22538E28A24ED33C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF82BEF1CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequest" */;
 			buildPhases = (
+				AA967BFAF9B24A96635F9AF5 /* 📦 Check Pods Manifest.lock */,
 				6DF82BC31CFF15E200FFDC1C /* Sources */,
 				6DF82BC41CFF15E200FFDC1C /* Frameworks */,
 				6DF82BC51CFF15E200FFDC1C /* Resources */,
+				F80F827DA469C2E8F4F7F868 /* 📦 Embed Pods Frameworks */,
+				FE62DB5E7E0C457D8EB9435B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF82BF21CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestTests" */;
 			buildPhases = (
+				D2347ABD8D3A0A2B642AB9EE /* 📦 Check Pods Manifest.lock */,
 				6DF82BD71CFF15E200FFDC1C /* Sources */,
 				6DF82BD81CFF15E200FFDC1C /* Frameworks */,
 				6DF82BD91CFF15E200FFDC1C /* Resources */,
+				6B67836EB6AF28112D61C63F /* 📦 Embed Pods Frameworks */,
+				6344B3A6DAA3D5138954CE52 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF82BF51CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestUITests" */;
 			buildPhases = (
+				1CBA13C0E56C5BDE0B0F5AFD /* 📦 Check Pods Manifest.lock */,
 				6DF82BE21CFF15E200FFDC1C /* Sources */,
 				6DF82BE31CFF15E200FFDC1C /* Frameworks */,
 				6DF82BE41CFF15E200FFDC1C /* Resources */,
+				0D91DA229CA4864B96248EBF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D91DA229CA4864B96248EBF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIRequestUITests/Pods-RestAPIRequestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CBA13C0E56C5BDE0B0F5AFD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6344B3A6DAA3D5138954CE52 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIRequestTests/Pods-RestAPIRequestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B67836EB6AF28112D61C63F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIRequestTests/Pods-RestAPIRequestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA967BFAF9B24A96635F9AF5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2347ABD8D3A0A2B642AB9EE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F80F827DA469C2E8F4F7F868 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIRequest/Pods-RestAPIRequest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE62DB5E7E0C457D8EB9435B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIRequest/Pods-RestAPIRequest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6DF82BC31CFF15E200FFDC1C /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		6DF82BF01CFF15E300FFDC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4BDFA5E7F5C176A5D9CC24 /* Pods-RestAPIRequest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RestAPIRequest/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		6DF82BF11CFF15E300FFDC1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3660A4259907EEFBCC40E8CB /* Pods-RestAPIRequest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RestAPIRequest/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		6DF82BF31CFF15E300FFDC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5741B351FD9D4528E9EFD8D0 /* Pods-RestAPIRequestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RestAPIRequestTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		6DF82BF41CFF15E300FFDC1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8A784D4CC62C51C3BC96BF /* Pods-RestAPIRequestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RestAPIRequestTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		6DF82BF61CFF15E300FFDC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC2A11A96A89D1599ADF240 /* Pods-RestAPIRequestUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RestAPIRequestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		6DF82BF71CFF15E300FFDC1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135316418B17C14E9F8B920E /* Pods-RestAPIRequestUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RestAPIRequestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				6DF82BF11CFF15E300FFDC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DF82BF21CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				6DF82BF41CFF15E300FFDC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DF82BF51CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				6DF82BF71CFF15E300FFDC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
