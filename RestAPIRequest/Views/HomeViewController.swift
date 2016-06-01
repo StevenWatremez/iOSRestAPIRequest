@@ -17,14 +17,16 @@ class HomeViewController: UIViewController {
   // MARK: life cycle funcs
   override func viewDidLoad() {
     super.viewDidLoad()
-    launchChannelRequest()
+    //launchChannelRequest()
     //getChannelInfo()
+    getChannelLastVideos()
   }
   
   // MARK: private funcs
   private func launchChannelRequest() {
     webService.fetchChannels().then { channels -> Void in
       print("Successful :)")
+      print(channels)
     }.always { 
       print("always goes here !")
       }.error { error in
@@ -36,11 +38,25 @@ class HomeViewController: UIViewController {
   private func getChannelInfo() {
     webService.fetchChannelInfo("UCVHFbqXqoYvEWM1Ddxl0QDg").then { channelInfo -> Void in
       print("Successful :)")
+      print(channelInfo)
     }.always { 
       print("Always goes here !")
       }.error { error in
         print("errrrrrorororororororororo !")
         print(error)
+
+    }
+  }
+  
+  private func getChannelLastVideos() {
+    webService.fetchLastVideosFromChannel("UCVHFbqXqoYvEWM1Ddxl0QDg", withSomeVideos: 4).then { channelVideos -> Void in
+      print("Successful :)")
+      print(channelVideos)
+    }.always { 
+      print("Always goes here !")
+    }.error { error in
+      print("errrrrrorororororororororo !")
+      print(error)
     }
   }
 }

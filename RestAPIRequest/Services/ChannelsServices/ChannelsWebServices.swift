@@ -27,23 +27,73 @@ struct Channel: Mappable {
   }
 }
 
-struct ChannelInfo: Mappable {
+struct ChannelVideo: Mappable {
   var etag = ""
+  var videoId = ""
+  var channelId = ""
+  var channelTitle = ""
+  var description = ""
+  var liveBroadcastContent = ""
+  var publishedAt = NSDate()
+  var thumbnail = ""
+  var title = ""
   
   init?(_ map: Map) {}
   
   mutating func mapping(map: Map) {
-    etag      <- map["etag"]
+    etag                  <- map["etag"]
+    videoId               <- map["id.videoId"]
+    channelId             <- map["snippet.channelId"]
+    channelTitle          <- map["snippet.channelTitle"]
+    description           <- map["snippet.description"]
+    liveBroadcastContent  <- map["snippet.liveBroadcastContent"]
+    publishedAt           <- (map["snippet.publishedAt"], DateTransform())
+    thumbnail             <- map["snippet.thumbnails.medium.url"]
+    title                 <- map["snippet.title"]
   }
 }
 
-struct ChannelVideo: Mappable {
+struct ChannelInfo: Mappable {
+  var id = ""
   var etag = ""
+  var title = ""
+  var description = ""
+  var keywords = ""
+  var profileColor = ""
+  var banner = ""
+  var publishedAt = NSDate()
+  var thumbnail = ""
+  var statistics: ChannelStatistics? = nil
   
   init?(_ map: Map) {}
   
   mutating func mapping(map: Map) {
-    etag      <- map["etag"]
+    id            <- map["items[0].id"]
+    etag          <- map["etag"]
+    title         <- map["items[0].snippet.title"]
+    description   <- map["items[0].snippet.description"]
+    keywords      <- map["items[0].brandingSettings.channel.keywords"]
+    profileColor   <- map["items[0].brandingSettings.channel.profileColor"]
+    banner        <- map["items[0].brandingSettings.image.bannerMobileImageUrl"]
+    publishedAt   <- (map["items[0].snippet.publishedAt"], DateTransform())
+    thumbnail     <- map["items[0].snippet.thumbnails.medium.url"]
+    statistics    <- map["items[0].statistics"]
+  }
+}
+
+struct ChannelStatistics: Mappable {
+  var commentCount = ""
+  var subscribeCount = ""
+  var videoCount = ""
+  var viewCount = ""
+  
+  init?(_ map: Map) {}
+  
+  mutating func mapping(map: Map) {
+    commentCount <- map ["commentCount"]
+    subscribeCount <- map ["subscribeCount"]
+    videoCount <- map ["videoCount"]
+    viewCount <- map ["viewCount"]
   }
 }
 
@@ -78,7 +128,7 @@ extension HTTPServicesClient {
   func fetchLastVideosFromChannel(identifier: String, withSomeVideos numberOfVideos: Int) -> Promise<Array<ChannelVideo>> {
     let serviceRequest = HTTPServiceRequest(
       verb: .Get,
-      path: "\(ChannelConstants.channelsRessource)/\(identifier)/info",
+      path: "\(ChannelConstants.channelsRessource)/\(identifier)/lastVideos",
       queryParameters: ["size": "\(numberOfVideos)"],
       bodyParameters: nil)
     let URLRequest = URLRequestWithServiceRequest(serviceRequest)
