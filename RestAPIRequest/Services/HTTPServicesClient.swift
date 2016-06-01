@@ -34,10 +34,10 @@ enum Error: ServiceError {
 struct HTTPServicesClient {
   
   // MARK: Properties
-  let scheme = "http"
+  let scheme = "https"
   let host: Host
   
-  private let stack = HTTPServiceStack()
+  let stack = HTTPServiceStack()
   
   init(host: Host) {
     self.host = host
@@ -251,7 +251,7 @@ struct HTTPServicesClient {
   //    }
   //    
   // MARK: Private funcs
-  private func URLRequestWithServiceRequest(request: HTTPServiceRequest) -> NSURLRequest {
+  func URLRequestWithServiceRequest(request: HTTPServiceRequest) -> NSURLRequest {
     return request.URLRequest(scheme, host: host.rawValue)
   }
 }

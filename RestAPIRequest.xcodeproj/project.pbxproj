@@ -12,12 +12,13 @@
 		6D4A42891CFF1ADC007A82CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42861CFF1ADC007A82CC /* LaunchScreen.storyboard */; };
 		6D4A428D1CFF1B12007A82CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A428C1CFF1B12007A82CC /* Default-568h@2x.png */; };
 		6D4A42991CFF1C25007A82CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42971CFF1C25007A82CC /* Main.storyboard */; };
-		6D4A429A1CFF1C25007A82CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A42981CFF1C25007A82CC /* ViewController.swift */; };
+		6D4A429A1CFF1C25007A82CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A42981CFF1C25007A82CC /* HomeViewController.swift */; };
 		6D4A429F1CFF1CB6007A82CC /* HTTPServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A429B1CFF1CB6007A82CC /* HTTPServiceRequest.swift */; };
 		6D4A42A01CFF1CB6007A82CC /* HTTPServicesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A429C1CFF1CB6007A82CC /* HTTPServicesClient.swift */; };
 		6D4A42A11CFF1CB6007A82CC /* HTTPServiceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A429D1CFF1CB6007A82CC /* HTTPServiceStack.swift */; };
 		6D4A42A21CFF1CB6007A82CC /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A429E1CFF1CB6007A82CC /* ServiceError.swift */; };
 		6D4A42A51CFF2484007A82CC /* NSHTTPURLResponseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A42A41CFF2484007A82CC /* NSHTTPURLResponseExtension.swift */; };
+		6D4A42AB1CFF298E007A82CC /* ChannelsWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A42AA1CFF298E007A82CC /* ChannelsWebServices.swift */; };
 		6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */; };
 		6DF82BE01CFF15E200FFDC1C /* RestAPIRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BDF1CFF15E200FFDC1C /* RestAPIRequestTests.swift */; };
 		6DF82BEB1CFF15E300FFDC1C /* RestAPIRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BEA1CFF15E300FFDC1C /* RestAPIRequestUITests.swift */; };
@@ -53,12 +54,13 @@
 		6D4A428C1CFF1B12007A82CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6D4A428F1CFF1B98007A82CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D4A42971CFF1C25007A82CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6D4A42981CFF1C25007A82CC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D4A42981CFF1C25007A82CC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6D4A429B1CFF1CB6007A82CC /* HTTPServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServiceRequest.swift; sourceTree = "<group>"; };
 		6D4A429C1CFF1CB6007A82CC /* HTTPServicesClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServicesClient.swift; sourceTree = "<group>"; };
 		6D4A429D1CFF1CB6007A82CC /* HTTPServiceStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServiceStack.swift; sourceTree = "<group>"; };
 		6D4A429E1CFF1CB6007A82CC /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		6D4A42A41CFF2484007A82CC /* NSHTTPURLResponseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSHTTPURLResponseExtension.swift; sourceTree = "<group>"; };
+		6D4A42AA1CFF298E007A82CC /* ChannelsWebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsWebServices.swift; sourceTree = "<group>"; };
 		6DF82BC71CFF15E200FFDC1C /* RestAPIRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF82BDB1CFF15E200FFDC1C /* RestAPIRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 		6D4A42931CFF1BEC007A82CC /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				6D4A42A91CFF296D007A82CC /* ChannelsServices */,
 				6D4A429B1CFF1CB6007A82CC /* HTTPServiceRequest.swift */,
 				6D4A429C1CFF1CB6007A82CC /* HTTPServicesClient.swift */,
 				6D4A429D1CFF1CB6007A82CC /* HTTPServiceStack.swift */,
@@ -177,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				6D4A42971CFF1C25007A82CC /* Main.storyboard */,
-				6D4A42981CFF1C25007A82CC /* ViewController.swift */,
+				6D4A42981CFF1C25007A82CC /* HomeViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,14 @@
 				6D4A42A41CFF2484007A82CC /* NSHTTPURLResponseExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D4A42A91CFF296D007A82CC /* ChannelsServices */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A42AA1CFF298E007A82CC /* ChannelsWebServices.swift */,
+			);
+			path = ChannelsServices;
 			sourceTree = "<group>";
 		};
 		6DF82BBE1CFF15E200FFDC1C = {
@@ -511,7 +522,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4A42A21CFF1CB6007A82CC /* ServiceError.swift in Sources */,
-				6D4A429A1CFF1C25007A82CC /* ViewController.swift in Sources */,
+				6D4A429A1CFF1C25007A82CC /* HomeViewController.swift in Sources */,
+				6D4A42AB1CFF298E007A82CC /* ChannelsWebServices.swift in Sources */,
 				6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */,
 				6D4A42A01CFF1CB6007A82CC /* HTTPServicesClient.swift in Sources */,
 				6D4A429F1CFF1CB6007A82CC /* HTTPServiceRequest.swift in Sources */,
