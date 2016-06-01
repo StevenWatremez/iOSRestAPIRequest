@@ -6,6 +6,8 @@
 //  Copyright © 2016 SGprojet. All rights reserved.
 //
 
+import Foundation
+
 extension NSHTTPURLResponse {
 
     var isSuccess: Bool { return 200...209 ~= statusCode }
