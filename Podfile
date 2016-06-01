@@ -6,6 +6,11 @@ target 'RestAPIRequest' do
   use_frameworks!
 
   # Pods for RestAPIRequest
+  pod 'PromiseKit'
+  pod 'ObjectMapper'
+  pod 'RealmSwift'
+
+  pod 'Reusable'
 
   target 'RestAPIRequestTests' do
     inherit! :search_paths

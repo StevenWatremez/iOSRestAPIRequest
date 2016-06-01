@@ -1,3 +1,45 @@
-PODFILE CHECKSUM: 9832762633d6c5aa71048786d270abee8941ba75
+PODS:
+  - ObjectMapper (1.2.0)
+  - OMGHTTPURLRQ (3.1.1):
+    - OMGHTTPURLRQ/RQ (= 3.1.1)
+  - OMGHTTPURLRQ/FormURLEncode (3.1.1)
+  - OMGHTTPURLRQ/RQ (3.1.1):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.1.1)
+  - PromiseKit (3.1.1):
+    - PromiseKit/Foundation (= 3.1.1)
+    - PromiseKit/QuartzCore (= 3.1.1)
+    - PromiseKit/UIKit (= 3.1.1)
+  - PromiseKit/CorePromise (3.1.1)
+  - PromiseKit/Foundation (3.1.1):
+    - OMGHTTPURLRQ (~> 3.1.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.1.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.1.1):
+    - PromiseKit/CorePromise
+  - Realm (0.102.0):
+    - Realm/Headers (= 0.102.0)
+  - Realm/Headers (0.102.0)
+  - RealmSwift (0.102.0):
+    - Realm (= 0.102.0)
+  - Reusable (2.2.1)
+
+DEPENDENCIES:
+  - ObjectMapper
+  - PromiseKit
+  - RealmSwift
+  - Reusable
+
+SPEC CHECKSUMS:
+  ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
+  OMGHTTPURLRQ: 633f98ee745aeda02345935a52eec1784cddb589
+  PromiseKit: 4e8127c22a9b29d1b44958ab2ec762ea6115cbfb
+  Realm: 5d219f9037e3ec2019c599b8227bfc95433cb10e
+  RealmSwift: e6f436f9fea1c57b9ad6d1c46d57562c845f3c4c
+  Reusable: 4a86b0fa0eefbe3126675617a7e921b673d530c1
+
+PODFILE CHECKSUM: 4f25ba2d9523f212daf9c5cc5e9f6ad0f08f78f2
 
 COCOAPODS: 1.0.0
