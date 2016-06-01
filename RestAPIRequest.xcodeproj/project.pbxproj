@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */; };
+		6DF82BCD1CFF15E200FFDC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */; };
+		6DF82BD01CFF15E200FFDC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BCE1CFF15E200FFDC1C /* Main.storyboard */; };
+		6DF82BD21CFF15E200FFDC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BD11CFF15E200FFDC1C /* Assets.xcassets */; };
+		6DF82BD51CFF15E200FFDC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF82BD31CFF15E200FFDC1C /* LaunchScreen.storyboard */; };
+		6DF82BE01CFF15E200FFDC1C /* RestAPIRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BDF1CFF15E200FFDC1C /* RestAPIRequestTests.swift */; };
+		6DF82BEB1CFF15E300FFDC1C /* RestAPIRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF82BEA1CFF15E300FFDC1C /* RestAPIRequestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DF82BDC1CFF15E200FFDC1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF82BBF1CFF15E200FFDC1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF82BC61CFF15E200FFDC1C;
+			remoteInfo = RestAPIRequest;
+		};
+		6DF82BE71CFF15E200FFDC1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF82BBF1CFF15E200FFDC1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF82BC61CFF15E200FFDC1C;
+			remoteInfo = RestAPIRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DF82BC71CFF15E200FFDC1C /* RestAPIRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DF82BCF1CFF15E200FFDC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DF82BD11CFF15E200FFDC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DF82BD41CFF15E200FFDC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DF82BD61CFF15E200FFDC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF82BDB1CFF15E200FFDC1C /* RestAPIRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF82BDF1CFF15E200FFDC1C /* RestAPIRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIRequestTests.swift; sourceTree = "<group>"; };
+		6DF82BE11CFF15E200FFDC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF82BE61CFF15E200FFDC1C /* RestAPIRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF82BEA1CFF15E300FFDC1C /* RestAPIRequestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIRequestUITests.swift; sourceTree = "<group>"; };
+		6DF82BEC1CFF15E300FFDC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF82BC41CFF15E200FFDC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF82BD81CFF15E200FFDC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF82BE31CFF15E200FFDC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DF82BBE1CFF15E200FFDC1C = {
+			isa = PBXGroup;
+			children = (
+				6DF82BC91CFF15E200FFDC1C /* RestAPIRequest */,
+				6DF82BDE1CFF15E200FFDC1C /* RestAPIRequestTests */,
+				6DF82BE91CFF15E300FFDC1C /* RestAPIRequestUITests */,
+				6DF82BC81CFF15E200FFDC1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DF82BC81CFF15E200FFDC1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DF82BC71CFF15E200FFDC1C /* RestAPIRequest.app */,
+				6DF82BDB1CFF15E200FFDC1C /* RestAPIRequestTests.xctest */,
+				6DF82BE61CFF15E200FFDC1C /* RestAPIRequestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DF82BC91CFF15E200FFDC1C /* RestAPIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */,
+				6DF82BCC1CFF15E200FFDC1C /* ViewController.swift */,
+				6DF82BCE1CFF15E200FFDC1C /* Main.storyboard */,
+				6DF82BD11CFF15E200FFDC1C /* Assets.xcassets */,
+				6DF82BD31CFF15E200FFDC1C /* LaunchScreen.storyboard */,
+				6DF82BD61CFF15E200FFDC1C /* Info.plist */,
+			);
+			path = RestAPIRequest;
+			sourceTree = "<group>";
+		};
+		6DF82BDE1CFF15E200FFDC1C /* RestAPIRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF82BDF1CFF15E200FFDC1C /* RestAPIRequestTests.swift */,
+				6DF82BE11CFF15E200FFDC1C /* Info.plist */,
+			);
+			path = RestAPIRequestTests;
+			sourceTree = "<group>";
+		};
+		6DF82BE91CFF15E300FFDC1C /* RestAPIRequestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF82BEA1CFF15E300FFDC1C /* RestAPIRequestUITests.swift */,
+				6DF82BEC1CFF15E300FFDC1C /* Info.plist */,
+			);
+			path = RestAPIRequestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DF82BC61CFF15E200FFDC1C /* RestAPIRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF82BEF1CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequest" */;
+			buildPhases = (
+				6DF82BC31CFF15E200FFDC1C /* Sources */,
+				6DF82BC41CFF15E200FFDC1C /* Frameworks */,
+				6DF82BC51CFF15E200FFDC1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestAPIRequest;
+			productName = RestAPIRequest;
+			productReference = 6DF82BC71CFF15E200FFDC1C /* RestAPIRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DF82BDA1CFF15E200FFDC1C /* RestAPIRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF82BF21CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestTests" */;
+			buildPhases = (
+				6DF82BD71CFF15E200FFDC1C /* Sources */,
+				6DF82BD81CFF15E200FFDC1C /* Frameworks */,
+				6DF82BD91CFF15E200FFDC1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF82BDD1CFF15E200FFDC1C /* PBXTargetDependency */,
+			);
+			name = RestAPIRequestTests;
+			productName = RestAPIRequestTests;
+			productReference = 6DF82BDB1CFF15E200FFDC1C /* RestAPIRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DF82BE51CFF15E200FFDC1C /* RestAPIRequestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF82BF51CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestUITests" */;
+			buildPhases = (
+				6DF82BE21CFF15E200FFDC1C /* Sources */,
+				6DF82BE31CFF15E200FFDC1C /* Frameworks */,
+				6DF82BE41CFF15E200FFDC1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF82BE81CFF15E200FFDC1C /* PBXTargetDependency */,
+			);
+			name = RestAPIRequestUITests;
+			productName = RestAPIRequestUITests;
+			productReference = 6DF82BE61CFF15E200FFDC1C /* RestAPIRequestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DF82BBF1CFF15E200FFDC1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Steven_WATREMEZ;
+				TargetAttributes = {
+					6DF82BC61CFF15E200FFDC1C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6DF82BDA1CFF15E200FFDC1C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6DF82BC61CFF15E200FFDC1C;
+					};
+					6DF82BE51CFF15E200FFDC1C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6DF82BC61CFF15E200FFDC1C;
+					};
+				};
+			};
+			buildConfigurationList = 6DF82BC21CFF15E200FFDC1C /* Build configuration list for PBXProject "RestAPIRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DF82BBE1CFF15E200FFDC1C;
+			productRefGroup = 6DF82BC81CFF15E200FFDC1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DF82BC61CFF15E200FFDC1C /* RestAPIRequest */,
+				6DF82BDA1CFF15E200FFDC1C /* RestAPIRequestTests */,
+				6DF82BE51CFF15E200FFDC1C /* RestAPIRequestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DF82BC51CFF15E200FFDC1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF82BD51CFF15E200FFDC1C /* LaunchScreen.storyboard in Resources */,
+				6DF82BD21CFF15E200FFDC1C /* Assets.xcassets in Resources */,
+				6DF82BD01CFF15E200FFDC1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF82BD91CFF15E200FFDC1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF82BE41CFF15E200FFDC1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DF82BC31CFF15E200FFDC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF82BCD1CFF15E200FFDC1C /* ViewController.swift in Sources */,
+				6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF82BD71CFF15E200FFDC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF82BE01CFF15E200FFDC1C /* RestAPIRequestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF82BE21CFF15E200FFDC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF82BEB1CFF15E300FFDC1C /* RestAPIRequestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DF82BDD1CFF15E200FFDC1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DF82BC61CFF15E200FFDC1C /* RestAPIRequest */;
+			targetProxy = 6DF82BDC1CFF15E200FFDC1C /* PBXContainerItemProxy */;
+		};
+		6DF82BE81CFF15E200FFDC1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DF82BC61CFF15E200FFDC1C /* RestAPIRequest */;
+			targetProxy = 6DF82BE71CFF15E200FFDC1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DF82BCE1CFF15E200FFDC1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF82BCF1CFF15E200FFDC1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DF82BD31CFF15E200FFDC1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF82BD41CFF15E200FFDC1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DF82BED1CFF15E300FFDC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DF82BEE1CFF15E300FFDC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DF82BF01CFF15E300FFDC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RestAPIRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.watremez.RestAPIRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DF82BF11CFF15E300FFDC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RestAPIRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.watremez.RestAPIRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DF82BF31CFF15E300FFDC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestAPIRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.watremez.RestAPIRequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestAPIRequest.app/RestAPIRequest";
+			};
+			name = Debug;
+		};
+		6DF82BF41CFF15E300FFDC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestAPIRequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.watremez.RestAPIRequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestAPIRequest.app/RestAPIRequest";
+			};
+			name = Release;
+		};
+		6DF82BF61CFF15E300FFDC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RestAPIRequestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.watremez.RestAPIRequestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RestAPIRequest;
+			};
+			name = Debug;
+		};
+		6DF82BF71CFF15E300FFDC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RestAPIRequestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.watremez.RestAPIRequestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RestAPIRequest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DF82BC21CFF15E200FFDC1C /* Build configuration list for PBXProject "RestAPIRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF82BED1CFF15E300FFDC1C /* Debug */,
+				6DF82BEE1CFF15E300FFDC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF82BEF1CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF82BF01CFF15E300FFDC1C /* Debug */,
+				6DF82BF11CFF15E300FFDC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DF82BF21CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF82BF31CFF15E300FFDC1C /* Debug */,
+				6DF82BF41CFF15E300FFDC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DF82BF51CFF15E300FFDC1C /* Build configuration list for PBXNativeTarget "RestAPIRequestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF82BF61CFF15E300FFDC1C /* Debug */,
+				6DF82BF71CFF15E300FFDC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DF82BBF1CFF15E200FFDC1C /* Project object */;
+}
