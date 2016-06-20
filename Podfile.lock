@@ -25,12 +25,14 @@ PODS:
   - RealmSwift (0.102.0):
     - Realm (= 0.102.0)
   - Reusable (2.2.1)
+  - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
   - ObjectMapper
   - PromiseKit
   - RealmSwift
   - Reusable
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
@@ -39,7 +41,8 @@ SPEC CHECKSUMS:
   Realm: 5d219f9037e3ec2019c599b8227bfc95433cb10e
   RealmSwift: e6f436f9fea1c57b9ad6d1c46d57562c845f3c4c
   Reusable: 4a86b0fa0eefbe3126675617a7e921b673d530c1
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: 4f25ba2d9523f212daf9c5cc5e9f6ad0f08f78f2
+PODFILE CHECKSUM: 21871d05547636eaaedcd017dc1d3f70cb89d566
 
 COCOAPODS: 1.0.0

@@ -8,6 +8,7 @@
 
 import UIKit
 import PromiseKit
+import SVProgressHUD
 
 class HomeViewController: UIViewController {
   
@@ -24,10 +25,12 @@ class HomeViewController: UIViewController {
   
   // MARK: private funcs
   private func launchChannelRequest() {
+    SVProgressHUD.show()
     webService.fetchChannels().then { channels -> Void in
       print("Successful :)")
       print(channels)
-    }.always { 
+    }.always {
+      SVProgressHUD.dismiss()
       print("always goes here !")
       }.error { error in
         print("errrrrrrorororororororororo !")
@@ -36,23 +39,26 @@ class HomeViewController: UIViewController {
   }
   
   private func getChannelInfo() {
+    SVProgressHUD.show()
     webService.fetchChannelInfo("UCVHFbqXqoYvEWM1Ddxl0QDg").then { channelInfo -> Void in
       print("Successful :)")
       print(channelInfo)
-    }.always { 
+    }.always {
+      SVProgressHUD.dismiss()
       print("Always goes here !")
       }.error { error in
         print("errrrrrorororororororororo !")
         print(error)
-
     }
   }
   
   private func getChannelLastVideos() {
+    SVProgressHUD.show()
     webService.fetchLastVideosFromChannel("UCVHFbqXqoYvEWM1Ddxl0QDg", withSomeVideos: 4).then { channelVideos -> Void in
       print("Successful :)")
       print(channelVideos)
-    }.always { 
+    }.always {
+      SVProgressHUD.dismiss()
       print("Always goes here !")
     }.error { error in
       print("errrrrrorororororororororo !")

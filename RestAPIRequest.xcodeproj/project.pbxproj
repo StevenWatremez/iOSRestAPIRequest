@@ -8,10 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		04A63D62E101963553DEACBC /* Pods_RestAPIRequestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFE7A3D055ECC5803121470 /* Pods_RestAPIRequestUITests.framework */; };
-		6D4A42871CFF1ADC007A82CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42841CFF1ADC007A82CC /* Assets.xcassets */; };
-		6D4A42891CFF1ADC007A82CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42861CFF1ADC007A82CC /* LaunchScreen.storyboard */; };
+		6D4326621D17F34300D4C2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4326641D17F34300D4C2E2 /* Main.storyboard */; };
+		6D43267A1D17F52800D4C2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4326761D17F52800D4C2E2 /* Assets.xcassets */; };
+		6D43267B1D17F52800D4C2E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D4326771D17F52800D4C2E2 /* Localizable.strings */; };
+		6D43267C1D17F52800D4C2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4326791D17F52800D4C2E2 /* LaunchScreen.storyboard */; };
+		6D43267E1D17F53F00D4C2E2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D43267D1D17F53F00D4C2E2 /* Strings.swift */; };
+		6D45C0111D17E32000FF515A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C00F1D17E32000FF515A /* Colors.swift */; };
+		6D45C0121D17E32000FF515A /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D45C0101D17E32000FF515A /* Colors.txt */; };
+		6D45C0171D17E44F00FF515A /* images.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 6D45C0151D17E44F00FF515A /* images.stencil */; };
+		6D45C0181D17E44F00FF515A /* storyboards.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 6D45C0161D17E44F00FF515A /* storyboards.stencil */; };
+		6D45C01B1D17E46400FF515A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C0191D17E46400FF515A /* Images.swift */; };
+		6D45C01C1D17E46400FF515A /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C01A1D17E46400FF515A /* Storyboards.swift */; };
 		6D4A428D1CFF1B12007A82CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A428C1CFF1B12007A82CC /* Default-568h@2x.png */; };
-		6D4A42991CFF1C25007A82CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A42971CFF1C25007A82CC /* Main.storyboard */; };
 		6D4A429A1CFF1C25007A82CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A42981CFF1C25007A82CC /* HomeViewController.swift */; };
 		6D4A429F1CFF1CB6007A82CC /* HTTPServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A429B1CFF1CB6007A82CC /* HTTPServiceRequest.swift */; };
 		6D4A42A01CFF1CB6007A82CC /* HTTPServicesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A429C1CFF1CB6007A82CC /* HTTPServicesClient.swift */; };
@@ -49,11 +57,20 @@
 		1462CA6F53364BE801F3146A /* Pods_RestAPIRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestAPIRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660A4259907EEFBCC40E8CB /* Pods-RestAPIRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequest/Pods-RestAPIRequest.release.xcconfig"; sourceTree = "<group>"; };
 		5741B351FD9D4528E9EFD8D0 /* Pods-RestAPIRequestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPIRequestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPIRequestTests/Pods-RestAPIRequestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D4A42841CFF1ADC007A82CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D4A42861CFF1ADC007A82CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D4326631D17F34300D4C2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D4326651D17F34F00D4C2E2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		6D43266B1D17F49F00D4C2E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4326761D17F52800D4C2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D4326781D17F52800D4C2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D4326791D17F52800D4C2E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D43267D1D17F53F00D4C2E2 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		6D45C00F1D17E32000FF515A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6D45C0101D17E32000FF515A /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
+		6D45C0151D17E44F00FF515A /* images.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = images.stencil; sourceTree = "<group>"; };
+		6D45C0161D17E44F00FF515A /* storyboards.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = storyboards.stencil; sourceTree = "<group>"; };
+		6D45C0191D17E46400FF515A /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		6D45C01A1D17E46400FF515A /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		6D4A428C1CFF1B12007A82CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6D4A428F1CFF1B98007A82CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D4A42971CFF1C25007A82CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6D4A42981CFF1C25007A82CC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6D4A429B1CFF1CB6007A82CC /* HTTPServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServiceRequest.swift; sourceTree = "<group>"; };
 		6D4A429C1CFF1CB6007A82CC /* HTTPServicesClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServicesClient.swift; sourceTree = "<group>"; };
@@ -126,13 +143,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6D4A42831CFF1A6F007A82CC /* Ressources */ = {
+		6D4326751D17F52800D4C2E2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6D4A42841CFF1ADC007A82CC /* Assets.xcassets */,
-				6D4A42861CFF1ADC007A82CC /* LaunchScreen.storyboard */,
+				6D4326761D17F52800D4C2E2 /* Assets.xcassets */,
+				6D4326771D17F52800D4C2E2 /* Localizable.strings */,
+				6D4326791D17F52800D4C2E2 /* LaunchScreen.storyboard */,
 			);
-			path = Ressources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D45C00E1D17E25400FF515A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6D43267D1D17F53F00D4C2E2 /* Strings.swift */,
+				6D45C0191D17E46400FF515A /* Images.swift */,
+				6D45C01A1D17E46400FF515A /* Storyboards.swift */,
+				6D45C0151D17E44F00FF515A /* images.stencil */,
+				6D45C0161D17E44F00FF515A /* storyboards.stencil */,
+				6D45C00F1D17E32000FF515A /* Colors.swift */,
+				6D45C0101D17E32000FF515A /* Colors.txt */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		6D4A42911CFF1BEC007A82CC /* Coordinators */ = {
@@ -179,7 +211,7 @@
 		6D4A42961CFF1BEC007A82CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6D4A42971CFF1C25007A82CC /* Main.storyboard */,
+				6D4326641D17F34300D4C2E2 /* Main.storyboard */,
 				6D4A42981CFF1C25007A82CC /* HomeViewController.swift */,
 			);
 			path = Views;
@@ -227,14 +259,15 @@
 		6DF82BC91CFF15E200FFDC1C /* RestAPIRequest */ = {
 			isa = PBXGroup;
 			children = (
+				6D4326751D17F52800D4C2E2 /* Resources */,
+				6D43266B1D17F49F00D4C2E2 /* Info.plist */,
+				6D45C00E1D17E25400FF515A /* Constants */,
 				6D4A42911CFF1BEC007A82CC /* Coordinators */,
 				6D4A42921CFF1BEC007A82CC /* Models */,
 				6D4A42931CFF1BEC007A82CC /* Services */,
 				6D4A42941CFF1BEC007A82CC /* Utils */,
 				6D4A42951CFF1BEC007A82CC /* ViewModels */,
 				6D4A42961CFF1BEC007A82CC /* Views */,
-				6D4A428F1CFF1B98007A82CC /* Info.plist */,
-				6D4A42831CFF1A6F007A82CC /* Ressources */,
 				6DF82BCA1CFF15E200FFDC1C /* AppDelegate.swift */,
 			);
 			path = RestAPIRequest;
@@ -271,6 +304,7 @@
 				6DF82BC51CFF15E200FFDC1C /* Resources */,
 				F80F827DA469C2E8F4F7F868 /* 📦 Embed Pods Frameworks */,
 				FE62DB5E7E0C457D8EB9435B /* 📦 Copy Pods Resources */,
+				6D45C00C1D17E19400FF515A /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -350,7 +384,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 6DF82BBE1CFF15E200FFDC1C;
@@ -370,10 +403,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4A42871CFF1ADC007A82CC /* Assets.xcassets in Resources */,
-				6D4A42991CFF1C25007A82CC /* Main.storyboard in Resources */,
-				6D4A42891CFF1ADC007A82CC /* LaunchScreen.storyboard in Resources */,
+				6D4326621D17F34300D4C2E2 /* Main.storyboard in Resources */,
+				6D43267C1D17F52800D4C2E2 /* LaunchScreen.storyboard in Resources */,
+				6D45C0121D17E32000FF515A /* Colors.txt in Resources */,
+				6D45C0171D17E44F00FF515A /* images.stencil in Resources */,
+				6D43267B1D17F52800D4C2E2 /* Localizable.strings in Resources */,
 				6D4A428D1CFF1B12007A82CC /* Default-568h@2x.png in Resources */,
+				6D43267A1D17F52800D4C2E2 /* Assets.xcassets in Resources */,
+				6D45C0181D17E44F00FF515A /* storyboards.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +491,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestAPIRequestTests/Pods-RestAPIRequestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6D45C00C1D17E19400FF515A /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nSOURCES_DIR=\"$PROJECT_DIR/RestAPIRequest\"\nswiftgen images \"$SOURCES_DIR\" --output \"$SOURCES_DIR/Constants/Images.swift\" --templatePath \"$SOURCES_DIR/Constants/images.stencil\" -e \"ImageName\"\nswiftgen strings \"$SOURCES_DIR/Resources/Base.lproj/Localizable.strings\" --output \"$SOURCES_DIR/Constants/Strings.swift\"\nswiftgen colors \"$SOURCES_DIR/Constants/Colors.txt\" --output \"$SOURCES_DIR/Constants/Colors.swift\"\nswiftgen storyboards \"$SOURCES_DIR\" --output \"$SOURCES_DIR/Constants/Storyboards.swift\" --templatePath \"$SOURCES_DIR/Constants/storyboards.stencil\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		AA967BFAF9B24A96635F9AF5 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -522,12 +574,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4A42A21CFF1CB6007A82CC /* ServiceError.swift in Sources */,
+				6D45C0111D17E32000FF515A /* Colors.swift in Sources */,
 				6D4A429A1CFF1C25007A82CC /* HomeViewController.swift in Sources */,
 				6D4A42AB1CFF298E007A82CC /* ChannelsWebServices.swift in Sources */,
+				6D45C01C1D17E46400FF515A /* Storyboards.swift in Sources */,
 				6DF82BCB1CFF15E200FFDC1C /* AppDelegate.swift in Sources */,
 				6D4A42A01CFF1CB6007A82CC /* HTTPServicesClient.swift in Sources */,
 				6D4A429F1CFF1CB6007A82CC /* HTTPServiceRequest.swift in Sources */,
+				6D45C01B1D17E46400FF515A /* Images.swift in Sources */,
 				6D4A42A51CFF2484007A82CC /* NSHTTPURLResponseExtension.swift in Sources */,
+				6D43267E1D17F53F00D4C2E2 /* Strings.swift in Sources */,
 				6D4A42A11CFF1CB6007A82CC /* HTTPServiceStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,6 +618,26 @@
 			targetProxy = 6DF82BE71CFF15E200FFDC1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D4326641D17F34300D4C2E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4326631D17F34300D4C2E2 /* Base */,
+				6D4326651D17F34F00D4C2E2 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D4326771D17F52800D4C2E2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4326781D17F52800D4C2E2 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6DF82BED1CFF15E300FFDC1C /* Debug */ = {

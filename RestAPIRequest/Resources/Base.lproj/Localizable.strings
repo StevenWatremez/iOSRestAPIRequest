@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  RestAPIRequest
+
+  Created by Steven_WATREMEZ on 20/06/16.
+  Copyright © 2016 Steven_WATREMEZ. All rights reserved.
+*/
+
+"alert_title" = "Title of the alert";
+"alert_message" = "Some alert body there";
+"greetings" = "Hello, my name is %@ and I'm %d";
+"apples.count" = "You have %d apples";
+"bananas.owner" = "Those %d bananas belong to %@.";

@@ -9,7 +9,7 @@ target 'RestAPIRequest' do
   pod 'PromiseKit'
   pod 'ObjectMapper'
   pod 'RealmSwift'
-
+  pod 'SVProgressHUD'
   pod 'Reusable'
 
   target 'RestAPIRequestTests' do

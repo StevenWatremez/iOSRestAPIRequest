@@ -92,7 +92,7 @@ struct ChannelItem: Mappable {
 
 struct ChannelStatistics: Mappable {
   var commentCount = ""
-  var subscribeCount = ""
+  var subscriberCount = ""
   var videoCount = ""
   var viewCount = ""
   
@@ -100,7 +100,7 @@ struct ChannelStatistics: Mappable {
   
   mutating func mapping(map: Map) {
     commentCount <- map ["commentCount"]
-    subscribeCount <- map ["subscribeCount"]
+    subscriberCount <- map ["subscriberCount"]
     videoCount <- map ["videoCount"]
     viewCount <- map ["viewCount"]
   }
